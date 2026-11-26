@@ -41,7 +41,7 @@ bool GetCfgPath(TCHAR *path, size_t pathsz, nucleus::IDevice *pdev)
 		PathAddBackslash(path);
 		CoTaskMemFree(rootpath);
 
-		_tcscat_s(path, MAX_PATH, _T("Spitz, Inc"));
+		_tcscat_s(path, MAX_PATH, _T("Possum"));
 		if (!PathIsDirectory(path) && !PathIsDirectory(path))
 			if (!CreateDirectory(path, nullptr))
 				return false;
