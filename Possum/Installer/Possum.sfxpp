@@ -37,7 +37,7 @@
 <powerprops:property id="NAME" type="STRING">Possum64.exe</powerprops:property>
 <powerprops:property id="PRES" type="STRING"></powerprops:property>
 <powerprops:property id="SNPT" type="STRING"></powerprops:property>
-<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\bin\Possum64.exe</powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\bin\Possum64.exe</powerprops:property>
 </powerprops:property_set>
 
 </file2>
@@ -50,7 +50,7 @@
 <powerprops:property id="NAME" type="STRING">*64.dll</powerprops:property>
 <powerprops:property id="PRES" type="STRING"></powerprops:property>
 <powerprops:property id="SNPT" type="STRING"></powerprops:property>
-<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\bin</powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\bin</powerprops:property>
 </powerprops:property_set>
 
 </file2>
@@ -63,7 +63,7 @@
 <powerprops:property id="NAME" type="STRING">*64.nudll</powerprops:property>
 <powerprops:property id="PRES" type="STRING"></powerprops:property>
 <powerprops:property id="SNPT" type="STRING"></powerprops:property>
-<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\bin</powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\bin</powerprops:property>
 </powerprops:property_set>
 
 </file2>
