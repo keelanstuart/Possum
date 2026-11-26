@@ -1,0 +1,228 @@
+<sfxpackager>
+
+<settings2>
+
+<powerprops:property_set>
+<powerprops:property id="ADCH" type="BOOLEAN">yes</powerprops:property>
+<powerprops:property id="ADMN" type="BOOLEAN">no</powerprops:property>
+<powerprops:property id="BOOT" type="BOOLEAN">no</powerprops:property>
+<powerprops:property id="CBSZ" type="ENUM">Default,Smallest,Smaller,Small,Normal,Large,Larger,Largest:0</powerprops:property>
+<powerprops:property id="CPTN" type="STRING">Possum Setup</powerprops:property>
+<powerprops:property id="DDST" type="STRING">%ProgramFiles%\Possum</powerprops:property>
+<powerprops:property id="ENEX" type="BOOLEAN">yes</powerprops:property>
+<powerprops:property id="ICON" type="STRING">D:\proj\Possum\Possum\Source\res\Possum.ico</powerprops:property>
+<powerprops:property id="IMAG" type="STRING">D:\proj\Possum\Possum\Installer\PossumLogoInstall.bmp</powerprops:property>
+<powerprops:property id="LICM" type="STRING">D:\proj\Possum\Possum\Installer\Possum-License.html</powerprops:property>
+<powerprops:property id="LNCH" type="STRING">Possum64.exe</powerprops:property>
+<powerprops:property id="OFSF" type="ENUM">None,Build Date,Version:1</powerprops:property>
+<powerprops:property id="OPMD" type="ENUM">Self-Extracting Executable,Executable With External Data:0</powerprops:property>
+<powerprops:property id="OUTP" type="STRING">PossumSetup.exe</powerprops:property>
+<powerprops:property id="PASS" type="STRING"></powerprops:property>
+<powerprops:property id="VCPY" type="STRING">Copyright © 2026, Keelan Stuart</powerprops:property>
+<powerprops:property id="VDSC" type="STRING">Possum Audio Setup</powerprops:property>
+<powerprops:property id="VERS" type="STRING">D:\proj\Possum\Possum\bin\Possum64.exe</powerprops:property>
+<powerprops:property id="VPRD" type="STRING">Possum Audio</powerprops:property>
+<powerprops:property id="WLCM" type="STRING">D:\proj\Possum\Possum\Installer\Welcome.html</powerprops:property>
+</powerprops:property_set>
+
+</settings2>
+
+<files2>
+
+<file2>
+
+<powerprops:property_set>
+<powerprops:property id="DSTP" type="STRING">\</powerprops:property>
+<powerprops:property id="EXCL" type="STRING"></powerprops:property>
+<powerprops:property id="NAME" type="STRING">Possum64.exe</powerprops:property>
+<powerprops:property id="PRES" type="STRING"></powerprops:property>
+<powerprops:property id="SNPT" type="STRING"></powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\bin\Possum64.exe</powerprops:property>
+</powerprops:property_set>
+
+</file2>
+
+<file2>
+
+<powerprops:property_set>
+<powerprops:property id="DSTP" type="STRING">\</powerprops:property>
+<powerprops:property id="EXCL" type="STRING"></powerprops:property>
+<powerprops:property id="NAME" type="STRING">*64.dll</powerprops:property>
+<powerprops:property id="PRES" type="STRING"></powerprops:property>
+<powerprops:property id="SNPT" type="STRING"></powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\bin</powerprops:property>
+</powerprops:property_set>
+
+</file2>
+
+<file2>
+
+<powerprops:property_set>
+<powerprops:property id="DSTP" type="STRING">\</powerprops:property>
+<powerprops:property id="EXCL" type="STRING"></powerprops:property>
+<powerprops:property id="NAME" type="STRING">*64.nudll</powerprops:property>
+<powerprops:property id="PRES" type="STRING"></powerprops:property>
+<powerprops:property id="SNPT" type="STRING"></powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\bin</powerprops:property>
+</powerprops:property_set>
+
+</file2>
+
+<file2>
+
+<powerprops:property_set>
+<powerprops:property id="DSTP" type="STRING">\Icons</powerprops:property>
+<powerprops:property id="EXCL" type="STRING"></powerprops:property>
+<powerprops:property id="NAME" type="STRING">*</powerprops:property>
+<powerprops:property id="PRES" type="STRING"></powerprops:property>
+<powerprops:property id="SNPT" type="STRING"></powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\bin\icons</powerprops:property>
+</powerprops:property_set>
+
+</file2>
+
+<file2>
+
+<powerprops:property_set>
+<powerprops:property id="DSTP" type="STRING">\Examples</powerprops:property>
+<powerprops:property id="EXCL" type="STRING"></powerprops:property>
+<powerprops:property id="NAME" type="STRING">moon_gate_at_dusk.possum</powerprops:property>
+<powerprops:property id="PRES" type="STRING"></powerprops:property>
+<powerprops:property id="SNPT" type="STRING"></powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\Examples\moon_gate_at_dusk.possum</powerprops:property>
+</powerprops:property_set>
+
+</file2>
+
+<file2>
+
+<powerprops:property_set>
+<powerprops:property id="DSTP" type="STRING">\Examples</powerprops:property>
+<powerprops:property id="EXCL" type="STRING"></powerprops:property>
+<powerprops:property id="NAME" type="STRING">Showers4.possum</powerprops:property>
+<powerprops:property id="PRES" type="STRING"></powerprops:property>
+<powerprops:property id="SNPT" type="STRING"></powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\Examples\Showers4.possum</powerprops:property>
+</powerprops:property_set>
+
+</file2>
+
+<file2>
+
+<powerprops:property_set>
+<powerprops:property id="DSTP" type="STRING">\Examples</powerprops:property>
+<powerprops:property id="EXCL" type="STRING"></powerprops:property>
+<powerprops:property id="NAME" type="STRING">test1.possum</powerprops:property>
+<powerprops:property id="PRES" type="STRING"></powerprops:property>
+<powerprops:property id="SNPT" type="STRING"></powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\Examples\test1.possum</powerprops:property>
+</powerprops:property_set>
+
+</file2>
+
+<file2>
+
+<powerprops:property_set>
+<powerprops:property id="DSTP" type="STRING">\Examples</powerprops:property>
+<powerprops:property id="EXCL" type="STRING"></powerprops:property>
+<powerprops:property id="NAME" type="STRING">the_sapphire_standard.possum</powerprops:property>
+<powerprops:property id="PRES" type="STRING"></powerprops:property>
+<powerprops:property id="SNPT" type="STRING"></powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\Examples\the_sapphire_standard.possum</powerprops:property>
+</powerprops:property_set>
+
+</file2>
+
+<file2>
+
+<powerprops:property_set>
+<powerprops:property id="DSTP" type="STRING">\Examples</powerprops:property>
+<powerprops:property id="EXCL" type="STRING"></powerprops:property>
+<powerprops:property id="NAME" type="STRING">BeepBeepBoop.possum</powerprops:property>
+<powerprops:property id="PRES" type="STRING"></powerprops:property>
+<powerprops:property id="SNPT" type="STRING"></powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\Examples\BeepBeepBoop.possum</powerprops:property>
+</powerprops:property_set>
+
+</file2>
+
+<file2>
+
+<powerprops:property_set>
+<powerprops:property id="DSTP" type="STRING">\Examples</powerprops:property>
+<powerprops:property id="EXCL" type="STRING"></powerprops:property>
+<powerprops:property id="NAME" type="STRING">Blackwake_Reel.possum</powerprops:property>
+<powerprops:property id="PRES" type="STRING"></powerprops:property>
+<powerprops:property id="SNPT" type="STRING"></powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\Examples\Blackwake_Reel.possum</powerprops:property>
+</powerprops:property_set>
+
+</file2>
+
+<file2>
+
+<powerprops:property_set>
+<powerprops:property id="DSTP" type="STRING">\Examples</powerprops:property>
+<powerprops:property id="EXCL" type="STRING"></powerprops:property>
+<powerprops:property id="NAME" type="STRING">darkness.possum</powerprops:property>
+<powerprops:property id="PRES" type="STRING"></powerprops:property>
+<powerprops:property id="SNPT" type="STRING"></powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\Examples\darkness.possum</powerprops:property>
+</powerprops:property_set>
+
+</file2>
+
+<file2>
+
+<powerprops:property_set>
+<powerprops:property id="DSTP" type="STRING">\Examples</powerprops:property>
+<powerprops:property id="EXCL" type="STRING"></powerprops:property>
+<powerprops:property id="NAME" type="STRING">darkness_with_treble.possum</powerprops:property>
+<powerprops:property id="PRES" type="STRING"></powerprops:property>
+<powerprops:property id="SNPT" type="STRING"></powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\Examples\darkness_with_treble.possum</powerprops:property>
+</powerprops:property_set>
+
+</file2>
+
+<file2>
+
+<powerprops:property_set>
+<powerprops:property id="DSTP" type="STRING">\Examples</powerprops:property>
+<powerprops:property id="EXCL" type="STRING"></powerprops:property>
+<powerprops:property id="NAME" type="STRING">lanterns_of_the_old_road.possum</powerprops:property>
+<powerprops:property id="PRES" type="STRING"></powerprops:property>
+<powerprops:property id="SNPT" type="STRING"></powerprops:property>
+<powerprops:property id="SRCP" type="STRING">D:\proj\Possum\Possum\Examples\lanterns_of_the_old_road.possum</powerprops:property>
+</powerprops:property_set>
+
+</file2>
+
+</files2>
+
+<scripts>
+
+<script type="initialize">SetProperty(&quot;Create Desktop Shortcut&quot;, &quot;bool&quot;, &quot;yesno&quot;, 1);
+</script>
+
+<script type="preinstall">ShowLicenseAcceptanceDlg();</script>
+
+<script type="postinstall">if (INSTALLOK == 1)
+{
+	CreateShortcut(&quot;%APPDATA%/Microsoft/Windows/Start Menu/Programs/Possum/Possum.lnk&quot;, BASEPATH + &quot;\\Possum64.exe&quot;, &quot;&quot;, BASEPATH, &quot;Possum&quot;, 1, BASEPATH + &quot;\\Possum64.exe&quot;, 0);
+
+	Echo(&quot;Created Start Menu shortcuts.\n&quot;);
+
+	if (GetProperty(&quot;Create Desktop Shortcut&quot;) == 1)
+	{
+		CreateShortcut(&quot;%HOMEPATH%/Desktop/Possum.lnk&quot;, BASEPATH + &quot;\\Possum.exe&quot;, &quot;&quot;, BASEPATH, &quot;Possum&quot;, 1, BASEPATH + &quot;\\Possum.exe&quot;, 0);
+
+		Echo(&quot;Created Desktop shortcut.\n&quot;);
+	}
+}
+
+</script>
+
+</scripts>
+
+</sfxpackager>

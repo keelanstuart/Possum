@@ -1,0 +1,2585 @@
+<!-- Created by a Nucleus application (probably Possum) -->
+
+<nucleus:trackset>
+
+	<properties>
+		<property name="Editor\Envelope Color 0" fcc="EC00" type="int" aspect="generic">9556568</property>
+		<property name="Editor\Envelope Color 1" fcc="EC01" type="int" aspect="generic">5683707</property>
+		<property name="Editor\Envelope Color 2" fcc="EC02" type="int" aspect="generic">10518247</property>
+		<property name="Editor\Envelope Color 3" fcc="EC03" type="int" aspect="generic">16168028</property>
+		<property name="Editor\Envelope Color 4" fcc="EC04" type="int" aspect="generic">16224955</property>
+		<property name="Editor\Envelope Color 5" fcc="EC05" type="int" aspect="generic">6393840</property>
+		<property name="Editor\Envelope Color 6" fcc="EC06" type="int" aspect="generic">13884290</property>
+		<property name="Editor\Envelope Color 7" fcc="EC07" type="int" aspect="generic">7854264</property>
+		<property name="Editor\Envelope Color 8" fcc="EC08" type="int" aspect="generic">6737904</property>
+		<property name="Editor\Envelope Color 9" fcc="EC09" type="int" aspect="generic">13539276</property>
+	</properties>
+
+	<nucleus:track>
+		<properties>
+			<property name="Name" fcc="NAME" type="string" aspect="generic">Master Effects</property>
+			<property name="Description" fcc="DESC" type="string" aspect="generic"></property>
+			<property name="Enabled" fcc="ENAB" type="bool" aspect="generic">1</property>
+			<property name="AllowCommandOverlap" fcc="ACOL" type="bool" aspect="generic">1</property>
+			<property name="Editor\Master Effects" fcc="EROL" type="int" aspect="generic">1</property>
+			<property name="Editor\Visible Envelopes" fcc="EVIS" type="int" aspect="generic">1023</property>
+			<property name="Editor\Active Envelope" fcc="EACT" type="int" aspect="generic">0</property>
+			<property name="Editor\Row Height" fcc="RHGT" type="int" aspect="generic">85</property>
+			<property name="Editor\Preset" fcc="PRST" type="string" aspect="generic">Effects</property>
+		</properties>
+
+		<commands>
+			<nucleus:command device="Audio" name="GlobalVolume" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.000000</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="GlobalGain" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.000000</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="GlobalTremolo" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.000000</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="GlobalPitchBend" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.000000</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="GlobalVibrato" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.000000</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="GlobalPan" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.000000</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="GlobalDelay" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.416667</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="GlobalLowPass" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">20000.000000</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="GlobalHighPass" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.000000</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="GlobalReverb" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.166667</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="GlobalVolume" time="1.25">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.916667</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="GlobalVolume" time="58.75">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.916667</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="GlobalVolume" time="61">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.027778</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">2.647849,-0.027778</property>
+				</properties>
+			</nucleus:command>
+		</commands>
+	</nucleus:track>
+
+	<nucleus:track>
+		<properties>
+			<property name="Name" fcc="NAME" type="string" aspect="generic">Audio 1</property>
+			<property name="Description" fcc="DESC" type="string" aspect="generic"></property>
+			<property name="Enabled" fcc="ENAB" type="bool" aspect="generic">1</property>
+			<property name="AllowCommandOverlap" fcc="ACOL" type="bool" aspect="generic">1</property>
+			<property name="Editor\Row Height" fcc="RHGT" type="int" aspect="generic">180</property>
+			<property name="Editor\Vertical Minimum" fcc="VMIN" type="float" aspect="generic">0.752173</property>
+			<property name="Editor\Vertical Maximum" fcc="VMAX" type="float" aspect="generic">1228322.625000</property>
+			<property name="Editor\Grid Interval" fcc="VGRD" type="float" aspect="generic">1.000000</property>
+			<property name="Editor\Snap Interval" fcc="VSNP" type="float" aspect="generic">1.000000</property>
+			<property name="Editor\Time Snap (s)" fcc="TSNP" type="float" aspect="generic">0.125000</property>
+			<property name="Editor\Time Snap Enabled" fcc="TSEN" type="bool" aspect="generic">1</property>
+			<property name="Editor\Snap Enabled" fcc="VSEN" type="bool" aspect="generic">1</property>
+			<property name="Editor\Logarithmic Scale" fcc="VSCL" type="bool" aspect="generic">1</property>
+			<property name="Editor\Visible Envelopes" fcc="EVIS" type="int" aspect="generic">150</property>
+			<property name="Editor\Active Envelope" fcc="EACT" type="int" aspect="generic">1</property>
+		</properties>
+
+		<commands>
+			<nucleus:command device="Audio" name="TrackGain" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">-24.000000</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.418033,7.473054</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackReverb" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.473054</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="0.125">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">38.891533</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="0.125">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.143713</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="0.875">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">55.000931</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="1.5">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.790419</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="2">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">38.891533</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="2.1259999999999999">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.143713</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="2.75">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">55.000931</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="3.5009999999999999">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.790419</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="3.875">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">19.445766</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="4.0019999999999998">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.143713</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="4.625">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">27.500465</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackGain" time="5.125">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.868265</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.545073,5.461077</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="5.3769999999999998">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.790419</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="5.75">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">19.445766</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="5.8780000000000001">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.143713</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="6.5">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">27.500465</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="7.2530000000000001">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.790419</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="7.75">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">38.891533</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="7.8790000000000004">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.215569</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="8.5">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">55.000931</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="9.2540000000000013">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.862276</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="9.625">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">38.891533</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="9.7550000000000008">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.287425</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="10.375">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">55.000931</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="11.130000000000003">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.934132</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="11.5">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">19.445766</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="11.631000000000002">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.287425</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="12.25">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">27.500465</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="13.006000000000004">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.934132</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="13.375">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">19.445766</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="13.507000000000003">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.287425</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="14.125">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">27.500465</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="14.882000000000005">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.934132</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="15.25">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">38.891533</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="15.383000000000004">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.287425</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="16">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">55.000931</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackGain" time="16">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">18.826347</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.998106,0.287425</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="16.758000000000006">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.934132</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="17.125">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">38.891533</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="17.134000000000007">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.359281</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="17.875">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">55.000931</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="18.509000000000007">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.005988</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="19">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">19.445766</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="19.135000000000009">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.359281</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="19.75">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">27.500465</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="20.510000000000009">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.005988</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="20.875">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">19.445766</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="21.01100000000001">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.359281</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="21.625">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">27.500465</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="22.38600000000001">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.005988</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="22.875">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">38.891533</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="23.012000000000011">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.502994</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="23.625">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">55.000931</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="24.387000000000011">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.149701</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="24.75">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">38.891533</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="24.888000000000012">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.574850</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="25.5">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">55.000931</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="26.263000000000012">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.221557</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="26.625">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">19.445766</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="26.764000000000014">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.574850</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="27.375">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">27.500465</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="28.139000000000014">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.221557</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="28.5">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">19.445766</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="28.640000000000015">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.574850</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="29.25">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">27.500465</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="30.015000000000015">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.221557</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackGain" time="30.125">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">19.412634</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,-0.019230</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackGain" time="30.266000000000016">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">15.377246</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="30.391000000000016">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">51.913967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="31.141000000000016">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">73.417435</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="31.766000000000016">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.790419</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="32.26600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">51.913967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="32.392000000000017">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.143713</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="33.01600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">73.417435</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="33.767000000000017">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.790419</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="34.14100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">25.956984</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="34.268000000000015">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.143713</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="34.89100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">36.708717</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="35.643000000000015">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.790419</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="36.01600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">25.956984</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="36.14400000000002">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.143713</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="36.76600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">36.708717</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="37.51900000000002">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.790419</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="38.01600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">51.913967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="38.145000000000017">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.215569</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="38.76600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">73.417435</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="39.520000000000017">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.862276</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="39.89100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">51.913967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="40.021000000000015">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.287425</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="40.64100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">73.417435</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="41.396000000000015">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.934132</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="41.76600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">25.956984</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="41.89700000000002">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.287425</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="42.51600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">36.708717</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="43.27200000000002">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.934132</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="43.64100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">25.956984</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="43.773000000000017">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.287425</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="44.39100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">36.708717</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="45.148000000000025">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.934132</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="45.51600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">51.913967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="45.649000000000022">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.287425</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="46.26600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">73.417435</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackGain" time="46.26600000000002">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">15.377246</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="47.024000000000022">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.934132</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="47.39100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">51.913967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="47.40000000000002">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.359281</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="48.14100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">73.417435</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="48.77500000000002">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.005988</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="49.26600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">25.956984</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="49.401000000000025">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.359281</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="50.01600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">36.708717</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="50.776000000000025">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.005988</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="51.14100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">25.956984</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="51.277000000000029">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.359281</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="51.89100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">36.708717</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="52.652000000000029">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.005988</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="53.14100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">51.913967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="53.278000000000027">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.502994</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="53.89100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">73.417435</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="54.653000000000027">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.149701</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="55.01600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">51.913967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="55.154000000000025">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.574850</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="55.76600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">73.417435</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="56.529000000000025">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.221557</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="56.89100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">25.956984</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="57.03000000000003">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.574850</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="57.64100000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">36.708717</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="58.40500000000003">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.221557</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="58.76600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">25.956984</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="58.906000000000034">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.574850</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="59.51600000000002">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic" enumval="2">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">36.708717</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.900000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVibrato" time="60.281000000000034">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.221557</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+		</commands>
+	</nucleus:track>
+
+	<nucleus:track>
+		<properties>
+			<property name="Name" fcc="NAME" type="string" aspect="generic">Audio 2</property>
+			<property name="Description" fcc="DESC" type="string" aspect="generic"></property>
+			<property name="Enabled" fcc="ENAB" type="bool" aspect="generic">1</property>
+			<property name="AllowCommandOverlap" fcc="ACOL" type="bool" aspect="generic">1</property>
+			<property name="Editor\Row Height" fcc="RHGT" type="int" aspect="generic">180</property>
+			<property name="Editor\Visible Envelopes" fcc="EVIS" type="int" aspect="generic">411</property>
+			<property name="Editor\Active Envelope" fcc="EACT" type="int" aspect="generic">7</property>
+		</properties>
+
+		<commands>
+			<nucleus:command device="Audio" name="TrackVibrato" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">12.000000</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVolume" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.000000</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackGain" time="0.125">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">11.640719</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackPitchBend" time="0.125">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">-8.838324</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackReverb" time="0.125">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.083832</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="5">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="6.875">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="8.875">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">138.593658</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="10.75">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="12.625">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackVolume" time="14">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">1.233533</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="16.375">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="18.25">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="20.125">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">138.593658</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="22">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">155.566132</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="24">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="27.75">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="29.625">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="31.5">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">138.593658</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="33.375">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="35.25">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="39.125">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="41">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="42.875">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">146.834869</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="44.75">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="46.625">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="50.375">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="52.25">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="54.125">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">146.834869</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="56">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Noise" time="57.875">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.375000</property>
+					<property name="Noise Type" fcc="SHAP" type="enum" aspect="generic" enumval="1">Brown,Pink,White,Blue,Violet</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">164.816574</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.100000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.600000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.700000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.500000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.050000</property>
+				</properties>
+			</nucleus:command>
+		</commands>
+	</nucleus:track>
+
+	<nucleus:track>
+		<properties>
+			<property name="Name" fcc="NAME" type="string" aspect="generic">Audio 3</property>
+			<property name="Description" fcc="DESC" type="string" aspect="generic"></property>
+			<property name="Enabled" fcc="ENAB" type="bool" aspect="generic">1</property>
+			<property name="AllowCommandOverlap" fcc="ACOL" type="bool" aspect="generic">1</property>
+			<property name="Editor\Master Effects" fcc="EROL" type="int" aspect="generic">0</property>
+			<property name="Editor\Visible Envelopes" fcc="EVIS" type="int" aspect="generic">770</property>
+			<property name="Editor\Active Envelope" fcc="EACT" type="int" aspect="generic">9</property>
+		</properties>
+
+		<commands>
+			<nucleus:command device="Audio" name="TrackHighPass" time="0">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">7065.868164</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackGain" time="0.125">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">-4.455090</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Sample" time="1">
+				<properties>
+					<property name="Sample Path" fcc="PATH" type="string" aspect="filename">D:\proj\Celerity\Samples\Incursion\toggle_view.wav</property>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">3.500000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Sample" time="8.75">
+				<properties>
+					<property name="Sample Path" fcc="PATH" type="string" aspect="filename">D:\proj\Celerity\Samples\Incursion\toggle_view.wav</property>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">3.500000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Sample" time="23.75">
+				<properties>
+					<property name="Sample Path" fcc="PATH" type="string" aspect="filename">D:\proj\Celerity\Samples\Incursion\toggle_view.wav</property>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">3.500000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackGain" time="29">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">-4.742515</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">0.867333,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackGain" time="30.125">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">-10.203592</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Sample" time="31.75">
+				<properties>
+					<property name="Sample Path" fcc="PATH" type="string" aspect="filename">D:\proj\Celerity\Samples\Incursion\toggle_view.wav</property>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">3.500000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Sample" time="46.375">
+				<properties>
+					<property name="Sample Path" fcc="PATH" type="string" aspect="filename">D:\proj\Celerity\Samples\Incursion\toggle_view.wav</property>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">3.500000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Sample" time="54.375">
+				<properties>
+					<property name="Sample Path" fcc="PATH" type="string" aspect="filename">D:\proj\Celerity\Samples\Incursion\toggle_view.wav</property>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">3.500000</property>
+				</properties>
+			</nucleus:command>
+		</commands>
+	</nucleus:track>
+	
+	<nucleus:track>
+		<properties>
+					<property name="Name" fcc="NAME" type="string" aspect="generic">Treble — Shadow Melody</property>
+					<property name="Description" fcc="DESC" type="string" aspect="generic">Original treble counter-melody over the tritone bass figures</property>
+					<property name="Enabled" fcc="ENAB" type="bool" aspect="generic">1</property>
+					<property name="AllowCommandOverlap" fcc="ACOL" type="bool" aspect="generic">1</property>
+					<property name="Editor\Row Height" fcc="RHGT" type="int" aspect="generic">180</property>
+		</properties>
+
+		<commands>
+			<nucleus:command device="Audio" name="TrackGain" time="0.000000">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">-14.000000</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="TrackReverb" time="0.000000">
+				<properties>
+					<property name="ControlPoint" fcc="CPNT" type="float" aspect="generic">0.260000</property>
+					<property name="ControlVec" fcc="CVEC" type="float2" aspect="generic">1.000000,0.000000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="0.500000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.900000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">622.253967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="1.625000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.650000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">523.251131</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="2.500000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.850000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">440.000000</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="4.250000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.100000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">369.994423</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="5.625000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.600000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">440.000000</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="6.500000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.875000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">523.251131</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="8.000000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.125000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">622.253967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="9.500000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.500000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">739.988845</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="10.250000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.625000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">659.255114</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="11.750000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.875000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">523.251131</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="12.875000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.625000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">440.000000</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="13.750000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.000000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">622.253967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="15.750000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.000000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">739.988845</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="17.000000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">622.253967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="17.875000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.875000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">523.251131</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="19.375000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">440.000000</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="20.375000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.625000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">523.251131</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="21.375000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.125000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">622.253967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="23.250000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.000000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">622.253967</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="24.500000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.700000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">523.251131</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="25.375000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.875000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">440.000000</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="27.000000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.125000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">369.994423</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="28.500000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">440.000000</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="29.500000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">523.251131</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="30.766000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.000000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">415.304698</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="32.016000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.625000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">493.883301</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="32.891000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">587.329536</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="34.391000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.125000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">698.456463</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="35.891000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.625000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">587.329536</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="36.766000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.875000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">493.883301</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="38.391000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.875000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">415.304698</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="39.516000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.625000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">493.883301</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="40.391000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.000000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">587.329536</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="42.016000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.000000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">830.609395</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="43.391000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">698.456463</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="44.391000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.875000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">587.329536</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="45.891000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.125000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">698.456463</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="47.391000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.625000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">587.329536</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="48.141000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">493.883301</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="49.641000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.000000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">415.304698</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="50.891000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.625000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">493.883301</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="51.766000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.875000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">587.329536</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="53.516000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">1.125000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">830.609395</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="55.016000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">698.456463</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="56.016000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.625000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">587.329536</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="57.266000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">493.883301</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="58.266000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.875000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">415.304698</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+			<nucleus:command device="Audio" name="Tone" time="59.516000">
+				<properties>
+					<property name="Duration (s)" fcc="DURA" type="float" aspect="generic">0.750000</property>
+					<property name="Waveform Shape" fcc="SHAP" type="enum" aspect="generic">Sine,Square,Triangle,Sawtooth</property>
+					<property name="Frequency (Hz)" fcc="FREQ" type="float" aspect="generic">415.304698</property>
+					<property name="Peak Proportion (%)" fcc="PEAK" type="float" aspect="generic">0.120000</property>
+					<property name="Sustain Proportion (%)" fcc="SUSP" type="float" aspect="generic">0.650000</property>
+					<property name="Sustain Balance (%)" fcc="SUSB" type="float" aspect="generic">0.450000</property>
+					<property name="Sustain Level (%)" fcc="SUSL" type="float" aspect="generic">0.760000</property>
+					<property name="Sustain Falloff (%)" fcc="SUSF" type="float" aspect="generic">0.100000</property>
+				</properties>
+			</nucleus:command>
+
+		</commands>
+	</nucleus:track>
+
+</nucleus:trackset>

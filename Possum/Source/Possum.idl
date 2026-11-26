@@ -1,0 +1,29 @@
+// Possum.idl : type library source for Possum.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Possum.tlb).
+
+[ uuid(9ED4397C-4D33-464B-8D80-5EB882FA27C2), version(1.0) ]
+library Possum
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CPossumAppDoc
+	
+	[ uuid(AA86A884-BCE5-4ADF-8D48-97C3209E39D3) ]
+	dispinterface IPossum
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CPossumAppDoc
+	
+	[ uuid(7293B24C-2CB4-4F7C-9B95-CFE24D3C0163) ]
+	coclass CPossumAppDoc
+	{
+		[default] dispinterface IPossum;
+	};
+};

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D6C0D412-02F0-4072-9073-9800C881C031}</ProjectGuid>
+    <RootNamespace>Possum</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>Possum</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Release.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Release.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(ProjectDir)obj\$(Configuration)$(PlatformArchitecture)\</IntDir>
+    <TargetName>$(ProjectName)$(PlatformArchitecture)$(ShortConfiguration)</TargetName>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)..\third-party;$(SolutionDir)..\Nucleus\Include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(SolutionDir)lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(ProjectDir)obj\$(Configuration)$(PlatformArchitecture)\</IntDir>
+    <TargetName>$(ProjectName)$(PlatformArchitecture)$(ShortConfiguration)</TargetName>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)third-party;$(SolutionDir)Nucleus\Include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;$(SolutionDir)lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(ProjectDir)obj\$(Configuration)$(PlatformArchitecture)\</IntDir>
+    <TargetName>$(ProjectName)$(PlatformArchitecture)$(ShortConfiguration)</TargetName>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)..\third-party;$(SolutionDir)..\Nucleus\Include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(SolutionDir)lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(ProjectDir)obj\$(Configuration)$(PlatformArchitecture)\</IntDir>
+    <TargetName>$(ProjectName)$(PlatformArchitecture)$(ShortConfiguration)</TargetName>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)third-party;$(SolutionDir)Nucleus\Include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;$(SolutionDir)lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions);_INSIDE_NUCLEUS</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp23</LanguageStandard>
+      <AdditionalOptions>/Zc:strictStrings- %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <RegisterOutput>false</RegisterOutput>
+      <AdditionalDependencies>gdiplus.lib;GenIO$(PlatformArchitecture)$(ShortConfiguration).lib;Pool$(PlatformArchitecture)$(ShortConfiguration).lib;PowerProps$(PlatformArchitecture)$(ShortConfiguration).lib;Nucleus$(PlatformArchitecture)$(ShortConfiguration).lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>Possum_h.h</HeaderFileName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions);_INSIDE_NUCLEUS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp23</LanguageStandard>
+      <AdditionalOptions>/Zc:strictStrings- %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <RegisterOutput>false</RegisterOutput>
+      <AdditionalDependencies>gdiplus.lib;GenIO$(PlatformArchitecture)$(ShortConfiguration).lib;Pool$(PlatformArchitecture)$(ShortConfiguration).lib;PowerProps$(PlatformArchitecture)$(ShortConfiguration).lib;Nucleus$(PlatformArchitecture)$(ShortConfiguration).lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>Possum_h.h</HeaderFileName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions);_INSIDE_NUCLEUS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp23</LanguageStandard>
+      <AdditionalOptions>/Zc:strictStrings- %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <RegisterOutput>false</RegisterOutput>
+      <AdditionalDependencies>gdiplus.lib;GenIO$(PlatformArchitecture)$(ShortConfiguration).lib;Pool$(PlatformArchitecture)$(ShortConfiguration).lib;PowerProps$(PlatformArchitecture)$(ShortConfiguration).lib;Nucleus$(PlatformArchitecture)$(ShortConfiguration).lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>Possum_h.h</HeaderFileName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions);_INSIDE_NUCLEUS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp23</LanguageStandard>
+      <AdditionalOptions>/Zc:strictStrings- %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <RegisterOutput>false</RegisterOutput>
+      <AdditionalDependencies>gdiplus.lib;GenIO$(PlatformArchitecture)$(ShortConfiguration).lib;Pool$(PlatformArchitecture)$(ShortConfiguration).lib;PowerProps$(PlatformArchitecture)$(ShortConfiguration).lib;Nucleus$(PlatformArchitecture)$(ShortConfiguration).lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>Possum_h.h</HeaderFileName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Possum.reg" />
+    <None Include="Source\res\cursor1.cur" />
+    <None Include="Source\res\cursor2.cur" />
+    <None Include="Source\res\cursor_slide.cur" />
+    <None Include="Source\res\cursor_slideleft.cur" />
+    <None Include="Source\res\cursor_slideright.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\CSplash.cpp" />
+    <ClCompile Include="Source\MediaExplorerCtrl.cpp" />
+    <ClCompile Include="Source\MediaListCtrl.cpp" />
+    <ClCompile Include="source\MediaPanel.cpp" />
+    <ClCompile Include="Source\CommandList.cpp" />
+    <ClCompile Include="Source\CommandListFilterControl.cpp" />
+    <ClCompile Include="Source\CommandListPanel.cpp" />
+    <ClCompile Include="Source\DeviceTree.cpp" />
+    <ClCompile Include="Source\DevicePanel.cpp" />
+    <ClCompile Include="source\DlgGenPropEdit.cpp" />
+    <ClCompile Include="source\FilterEditorDlg.cpp" />
+    <ClCompile Include="Source\MFCToolBarEx.cpp" />
+    <ClCompile Include="Source\PicManager.cpp" />
+    <ClCompile Include="Source\PlaybackToolBarButtons.cpp" />
+    <ClCompile Include="Source\Possum.cpp" />
+    <ClCompile Include="Source\PossumButton.cpp" />
+    <ClCompile Include="Source\PossumDocManager.cpp" />
+    <ClCompile Include="Source\PossumDocument.cpp" />
+    <ClCompile Include="Source\PossumDocView.cpp" />
+    <ClCompile Include="Source\PossumEffects.cpp" />
+    <ClCompile Include="Source\PossumFrame.cpp" />
+    <ClCompile Include="Source\PossumLayout.cpp" />
+    <ClCompile Include="Source\PossumSettings.cpp" />
+    <ClCompile Include="Source\ProductBrowserPanel.cpp" />
+    <ClCompile Include="Source\PropertiesPanel.cpp" />
+    <ClCompile Include="source\PossumPropertyGrid.cpp" />
+    <ClCompile Include="source\RGBASlidersDlg.cpp" />
+    <ClCompile Include="Source\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\TimeBarCtrl.cpp" />
+    <ClCompile Include="Source\TrackListCtrl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\UndoManager.cpp" />
+    <ClCompile Include="Source\Util.cpp" />
+    <ClCompile Include="Source\ViewTree.cpp" />
+    <ClCompile Include="Source\WebBrowserPanel.cpp" />
+    <ClCompile Include="Source\WebBrowserWnd.cpp" />
+    <ClCompile Include="Source\wtfcolorbar.cpp" />
+    <ClCompile Include="Source\wtfcolorbutton.cpp" />
+    <ClCompile Include="Source\wtfcolormenubutton.cpp" />
+    <ClCompile Include="Source\wtfcolorpopupmenu.cpp" />
+    <ClCompile Include="Source\wtfpropertygridctrl.cpp" />
+    <ClCompile Include="Source\wtfpropertygridtooltipctrl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\CSplash.h" />
+    <ClInclude Include="Source\MediaExplorerCtrl.h" />
+    <ClInclude Include="Source\MediaListCtrl.h" />
+    <ClInclude Include="source\MediaPanel.h" />
+    <ClInclude Include="Source\CommandList.h" />
+    <ClInclude Include="Source\CommandListFilterControl.h" />
+    <ClInclude Include="Source\CommandListPanel.h" />
+    <ClInclude Include="Source\DeviceTree.h" />
+    <ClInclude Include="Source\DevicePanel.h" />
+    <ClInclude Include="source\DlgGenPropEdit.h" />
+    <ClInclude Include="source\FilterEditorDlg.h" />
+    <ClInclude Include="Source\MFCToolBarEx.h" />
+    <ClInclude Include="Source\PicManager.h" />
+    <ClInclude Include="Source\PlaybackToolBarButtons.h" />
+    <ClInclude Include="Source\Possum.h" />
+    <ClInclude Include="Source\PossumButton.h" />
+    <ClInclude Include="Source\PossumDocManager.h" />
+    <ClInclude Include="Source\PossumDocument.h" />
+    <ClInclude Include="Source\PossumDocView.h" />
+    <ClInclude Include="Source\PossumEffects.h" />
+    <ClInclude Include="Source\PossumFrame.h" />
+    <ClInclude Include="Source\PossumLayout.h" />
+    <ClInclude Include="Source\PossumSettings.h" />
+    <ClInclude Include="Source\ProductBrowserPanel.h" />
+    <ClInclude Include="Source\PropertiesPanel.h" />
+    <ClInclude Include="source\PossumPropertyGrid.h" />
+    <ClInclude Include="Source\Resource.h" />
+    <ClInclude Include="source\RGBASlidersDlg.h" />
+    <ClInclude Include="Source\stdafx.h" />
+    <ClInclude Include="Source\targetver.h" />
+    <ClInclude Include="Source\TimeBarCtrl.h" />
+    <ClInclude Include="Source\TrackListCtrl.h" />
+    <ClInclude Include="Source\UndoManager.h" />
+    <ClInclude Include="Source\Util.h" />
+    <ClInclude Include="Source\Version_Build.h" />
+    <ClInclude Include="Source\Version_Major.h" />
+    <ClInclude Include="Source\Version_Minor.h" />
+    <ClInclude Include="Source\ViewTree.h" />
+    <ClInclude Include="Source\WebBrowserPanel.h" />
+    <ClInclude Include="Source\WebBrowserWnd.h" />
+    <ClInclude Include="Source\wtfcolorbar.h" />
+    <ClInclude Include="Source\wtfcolorbutton.h" />
+    <ClInclude Include="Source\wtfcolormenubutton.h" />
+    <ClInclude Include="Source\wtfcolorpopupmenu.h" />
+    <ClInclude Include="Source\wtfpropertygridctrl.h" />
+    <ClInclude Include="Source\wtfpropertygridtooltipctrl.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\Possum.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Source\res\bitmap1.bmp" />
+    <Image Include="Source\res\classview.bmp" />
+    <Image Include="Source\res\classview_hc.bmp" />
+    <Image Include="Source\res\class_view.ico" />
+    <Image Include="Source\res\class_view_hc.ico" />
+    <Image Include="Source\res\explorer.bmp" />
+    <Image Include="Source\res\explorer_hc.bmp" />
+    <Image Include="Source\res\fileview.bmp" />
+    <Image Include="Source\res\fileview_hc.bmp" />
+    <Image Include="Source\res\file_view.ico" />
+    <Image Include="Source\res\file_view_hc.ico" />
+    <Image Include="Source\res\ico00001.ico" />
+    <Image Include="Source\res\ico00002.ico" />
+    <Image Include="Source\res\info.bmp" />
+    <Image Include="Source\res\Layout256.bmp" />
+    <Image Include="Source\res\menuimages.bmp" />
+    <Image Include="Source\res\menuimages_hc.bmp" />
+    <Image Include="Source\res\NewApp.bmp" />
+    <Image Include="Source\res\nucleus_icons.bmp" />
+    <Image Include="Source\res\playback.bmp" />
+    <Image Include="Source\res\playback256.bmp" />
+    <Image Include="Source\res\properti.ico" />
+    <Image Include="Source\res\Possum.ico" />
+    <Image Include="Source\res\PossumDoc.ico" />
+    <Image Include="Source\res\output_wnd.ico" />
+    <Image Include="Source\res\output_wnd_hc.ico" />
+    <Image Include="Source\res\properties.bmp" />
+    <Image Include="Source\res\properties_hc.bmp" />
+    <Image Include="Source\res\properties_wnd.ico" />
+    <Image Include="Source\res\properties_wnd_hc.ico" />
+    <Image Include="Source\res\sort.bmp" />
+    <Image Include="Source\res\sort_hc.bmp" />
+    <Image Include="Source\res\Toolbar.bmp" />
+    <Image Include="Source\res\Toolbar256.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Source\Possum.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
